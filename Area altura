@@ -1,0 +1,22 @@
+// areaenbaseaaltura.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include "stdio.h"
+#include "conio.h"
+#include "math.h"
+
+int main()
+{
+  int b, h;
+	float A;
+	printf ("CALCULO DE EL AREA DEL TRIANGULO \n");
+	printf ("Introduzca base: ");
+    scanf_s ("%d", &b);
+	printf ("Introduzca altura: ");
+    scanf_s ("%d", &h);
+	A = (b*h/2);
+	printf ("area=: %f \n", A);
+	getch ();
+	return 0;
+}
