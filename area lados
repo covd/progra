@@ -1,0 +1,24 @@
+// areaenbasealados.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include "stdio.h"
+#include "conio.h"
+#include "math.h"
+
+int main()
+{
+	int  a, b, c;
+	float S, Area;
+	printf("Introduzca A: ");
+	scanf_s("%d", &a);
+	printf("Introduzca B: ");
+	scanf_s("%d", &b);
+	printf("Introduzca C: ");
+	scanf_s("%d",&c);
+	S = ((a+b+c)/2);
+	Area = sqrt(S*(S-a)*(S-b)*(S-c));
+	printf ("area: %f \n", Area);
+	getch ();
+	return 0;
+}
