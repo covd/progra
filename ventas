@@ -1,0 +1,22 @@
+// ventas.cpp : Defines the entry point for the console application.
+//autor: Cristian Ortiz
+
+#include "stdafx.h"
+#include "stdio.h"
+#include "conio.h"
+#include "math.h"
+
+
+int main ()
+{float A,B,C,mes;
+printf("ingrese valor de producto A: \n");
+scanf("%f",&A);
+printf("ingrese valor de producto B: \n");
+scanf("%f",&B);
+printf("ingrese valor de producto C: \n");
+scanf("%f",&C);
+mes= (A+B+C)*4;
+printf("imprimir ingresos:%f \n",mes);
+getch ();
+return 0;
+}
