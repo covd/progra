@@ -1,0 +1,25 @@
+// if.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include "stdio.h"
+#include "conio.h"
+
+int main ()
+{float sueldo, base , impuesto;
+ scanf("%f ,&sueldo");
+	 printf("ingrese el sueldo: \n");
+	 scanf("%f, &base");
+	 printf("ingrese el base: \n");
+if (sueldo>2*base)  
+ {	
+	 impuesto= sueldo*0.13;
+ }
+else
+{
+impuesto=0;
+ }
+getch ();
+
+	 return 0;
+}
